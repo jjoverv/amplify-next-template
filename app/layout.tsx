@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./app.css";
+import { Amplify } from "aws-amplify";
+import outputs from "@/amplify_outputs.json";
 
 const inter = Inter({ subsets: ["latin"] });
 
